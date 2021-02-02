@@ -1,14 +1,14 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/logo.jpg?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/logo.jpg?v=2.6.2" type="image/png" sizes="32x32"><meta name="description" content="前言       搭建Hexo博客，需要些准备工作的，毕竟这个还是属于灵活定制的个人博客，灵活性高定制性就高，同时，配置项就多，烦躁。。。 搭建Hexo属于简易开发过程了，涉及了一些代码，但是代码性不强，没有什么逻辑性，所以搭建过程还是比较简单的，搭建之前的准备：                     准备        官网文档：https:&#x2F;&#x2F;hexo">
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/logo.jpg?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/logo.jpg?v=2.6.2" type="image/png" sizes="32x32"><meta name="description" content="前言       搭建Hexo博客，需要些准备工作的，毕竟这个还是属于灵活定制的个人博客，灵活性高定制性就高，同时，配置项就多，烦躁。。。 搭建Hexo属于简易开发过程了，涉及了一些代码，但是代码性不强，没有什么逻辑性，所以搭建过程还是比较简单的，搭建之前的准备：">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用Hexo搭建博客">
 <meta property="og:url" content="https://wusow.com/post/eb656981.html">
 <meta property="og:site_name" content="Nothing">
-<meta property="og:description" content="前言       搭建Hexo博客，需要些准备工作的，毕竟这个还是属于灵活定制的个人博客，灵活性高定制性就高，同时，配置项就多，烦躁。。。 搭建Hexo属于简易开发过程了，涉及了一些代码，但是代码性不强，没有什么逻辑性，所以搭建过程还是比较简单的，搭建之前的准备：                     准备        官网文档：https:&#x2F;&#x2F;hexo">
+<meta property="og:description" content="前言       搭建Hexo博客，需要些准备工作的，毕竟这个还是属于灵活定制的个人博客，灵活性高定制性就高，同时，配置项就多，烦躁。。。 搭建Hexo属于简易开发过程了，涉及了一些代码，但是代码性不强，没有什么逻辑性，所以搭建过程还是比较简单的，搭建之前的准备：">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-02-02T01:17:52.430Z">
-<meta property="article:modified_time" content="2021-02-02T06:22:15.520Z">
+<meta property="article:modified_time" content="2021-02-02T08:32:28.135Z">
 <meta property="article:author" content="哇哒咔咔哒">
-<meta property="article:tag" content="开发工具">
+<meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary"><title>使用Hexo搭建博客 | Nothing</title><link ref="canonical" href="https://wusow.com/post/eb656981.html"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.6.2"><script>var Stun = window.Stun || {};
 var CONFIG = {
   root: '/',
@@ -38,21 +38,19 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.3.0"></he
           <a href="#前言" class="heading-link"><i class="fas fa-link"></i></a><a href="#前言" class="headerlink" title="前言"></a>前言</h2>
       <pre><code>搭建Hexo博客，需要些准备工作的，毕竟这个还是属于灵活定制的个人博客，灵活性高定制性就高，同时，配置项就多，烦躁。。。
 搭建Hexo属于简易开发过程了，涉及了一些代码，但是代码性不强，没有什么逻辑性，所以搭建过程还是比较简单的，搭建之前的准备：</code></pre>
+<a id="more"></a>
 
         <h2 id="准备"   >
           <a href="#准备" class="heading-link"><i class="fas fa-link"></i></a><a href="#准备" class="headerlink" title="准备"></a>准备</h2>
       <ul>
 <li>官网文档：<span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/" >https://hexo.io/zh-cn/docs/</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></li>
-<li><code>node.js</code>: <a href="#">Post not found: test</a></li>
-<li><code>git</code>: <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="http://ibruce.info/" >http://ibruce.info</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></li>
+<li><code>Node.js</code>: <span class="exturl"><a class="exturl__link"   href="http://wusow.com/post/9e212a55.html" >Node.js的搭建</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></li>
+<li><code>Git</code>: <span class="exturl"><a class="exturl__link"   href="http://wusow.com/post/42dc65b0.html" >Git的搭建</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></li>
 </ul>
 
         <h2 id="搭建过程"   >
           <a href="#搭建过程" class="heading-link"><i class="fas fa-link"></i></a><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h2>
       <ol>
-<li><p>因为以前做过node.js的开发，所以npm相关都是齐全的，不用再安装了，但是需要升级，不过电脑上的其他项目，npm的版本也会有影响，所以升级前要注意这个问题：</p>
-<p> 升级npm：<code>npm install -g npm</code><br> 升级至指定版本：<code>npm -g install npm@6.8.0</code>  </p>
-</li>
 <li><p>通过npm安装Hexo:  <code>npm install -g hexo-cli</code></p>
 </li>
 <li><p>在当前路径下，创建名为‘blog’的Hexo项目文件夹：<code>hexo init blog</code> </p>
@@ -76,11 +74,36 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.3.0"></he
 <li><p>开启Hexo服务：<code>hexo s</code> (可在本地访问：<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a>)</p>
 </li>
 </ol>
+<hr>
 
-        <h2 id="其他操作"   >
-          <a href="#其他操作" class="heading-link"><i class="fas fa-link"></i></a><a href="#其他操作" class="headerlink" title="其他操作"></a>其他操作</h2>
-      </div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ 本文结束，感谢您的阅读 ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">本文作者: </span><span class="copyright-author__value"><a href="https://wusow.com">哇哒咔咔哒</a></span></div><div class="copyright-link"><span class="copyright-link__name">本文链接: </span><span class="copyright-link__value"><a href="https://wusow.com/post/eb656981.html">https://wusow.com/post/eb656981.html</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">版权声明: </span><span class="copyright-notice__value">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> 许可协议。转载请注明出处！</span></div></div><div class="post-tags"><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://wusow.com/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/">开发工具</a></span></div><nav class="post-paginator paginator"><div class="paginator-prev"><a class="paginator-prev__link" href="/post/9e212a55.html"><span class="paginator-prev__icon"><i class="fas fa-angle-left"></i></span><span class="paginator-prev__text">node.js 的搭建</span></a></div><div class="paginator-next"><a class="paginator-next__link" href="/post/27bfeede.html"><span class="paginator-prev__text">建站第一篇，这个博客的由来</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">文章目录</span><span class="sidebar-nav-ov">站点概览</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">
+        <h2 id="github的仓库"   >
+          <a href="#github的仓库" class="heading-link"><i class="fas fa-link"></i></a><a href="#github的仓库" class="headerlink" title="github的仓库"></a>github的仓库</h2>
+      <ol>
+<li>在github上创建一个空的<code>public</code>仓库</li>
+<li>将仓库的地址，放在当前项目文件夹下<code>_config.yml</code>中（/blog/_config.yml）：<figure class="highlight yml"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="comment"># 建议使用https的仓库地址</span></span><br><span class="line">    <span class="attr">repository:</span> <span class="string">https://github.com/username/xxx.git</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></div></figure></li>
+<li>通过 <code>hexo g</code> 生成静态文件</li>
+<li>通过 <code>hexo d</code> 将文件上传至对应的github仓库 </li>
+</ol>
+<hr>
+
+        <h2 id="再开发时候的操作"   >
+          <a href="#再开发时候的操作" class="heading-link"><i class="fas fa-link"></i></a><a href="#再开发时候的操作" class="headerlink" title="再开发时候的操作"></a>再开发时候的操作</h2>
+      <ol>
+<li>git clone 代码 </li>
+<li>npm install </li>
+<li>安装git：npm install hexo-deployer-git –save </li>
+<li>执行 hexo g 生成编译文件 </li>
+<li>执行 hexo d 上传编译文件</li>
+</ol>
+<hr>
+
+        <h2 id="小结"   >
+          <a href="#小结" class="heading-link"><i class="fas fa-link"></i></a><a href="#小结" class="headerlink" title="小结"></a>小结</h2>
+      <pre><code>好麻烦啊。。。。所说个性化定制挺好的，但是各种要配置的，主题也是，看起来怪怪的，写的文章，超链接什么的也不好弄。。。[苦涩]</code></pre>
+</div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ 本文结束，感谢您的阅读 ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">本文作者: </span><span class="copyright-author__value"><a href="https://wusow.com">哇哒咔咔哒</a></span></div><div class="copyright-link"><span class="copyright-link__name">本文链接: </span><span class="copyright-link__value"><a href="https://wusow.com/post/eb656981.html">https://wusow.com/post/eb656981.html</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">版权声明: </span><span class="copyright-notice__value">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> 许可协议。转载请注明出处！</span></div></div><div class="post-tags"><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://wusow.com/tags/Hexo/">Hexo</a></span></div><nav class="post-paginator paginator"><div class="paginator-prev"><a class="paginator-prev__link" href="/post/9e212a55.html"><span class="paginator-prev__icon"><i class="fas fa-angle-left"></i></span><span class="paginator-prev__text">Node.js 的搭建</span></a></div><div class="paginator-next"><a class="paginator-next__link" href="/post/27bfeede.html"><span class="paginator-prev__text">建站第一篇，这个博客的由来</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">文章目录</span><span class="sidebar-nav-ov">站点概览</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">
           前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%86%E5%A4%87"><span class="toc-number">2.</span> <span class="toc-text">
           准备</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B"><span class="toc-number">3.</span> <span class="toc-text">
-          搭建过程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E6%93%8D%E4%BD%9C"><span class="toc-number">4.</span> <span class="toc-text">
-          其他操作</span></a></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/wada-256x256.png" alt="avatar"></div><p class="sidebar-ov-author__text">哇哒哒咔哒</p></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--categories" href="/categories/"><div class="sidebar-ov-state-item__count">1</div><div class="sidebar-ov-state-item__name">分类</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--tags" href="/tags/"><div class="sidebar-ov-state-item__count">3</div><div class="sidebar-ov-state-item__name">标签</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="知识共享许可协议" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">你已阅读了 </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2021</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>哇哒咔咔哒</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script></body></html>
+          搭建过程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#github%E7%9A%84%E4%BB%93%E5%BA%93"><span class="toc-number">4.</span> <span class="toc-text">
+          github的仓库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%8D%E5%BC%80%E5%8F%91%E6%97%B6%E5%80%99%E7%9A%84%E6%93%8D%E4%BD%9C"><span class="toc-number">5.</span> <span class="toc-text">
+          再开发时候的操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F%E7%BB%93"><span class="toc-number">6.</span> <span class="toc-text">
+          小结</span></a></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/wada-256x256.png" alt="avatar"></div><p class="sidebar-ov-author__text">哇哒哒咔哒</p></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--categories" href="/categories/"><div class="sidebar-ov-state-item__count">2</div><div class="sidebar-ov-state-item__name">分类</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--tags" href="/tags/"><div class="sidebar-ov-state-item__count">4</div><div class="sidebar-ov-state-item__name">标签</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="知识共享许可协议" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">你已阅读了 </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2021</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>哇哒咔咔哒</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script></body></html>
